@@ -41,6 +41,7 @@ router.post('/upload', upload.array('files'), async (req, res) => {
     const uploadedFiles = [];
 
     // Obtener el nombre de la carpeta desde la solicitud
+    console.log('foldername', req.body.folderName);
     const folderName = req.body.folderName || 'Prueba'; // Valor predeterminado "Prueba" si no se proporciona
 
     // Buscar si ya existe una carpeta con el mismo nombre
