@@ -2,7 +2,7 @@
 const fetch = require('node-fetch');
 const cleanCountryCode = require('../formatting_services/transformCountryFormat');
 
-const xapiKey = 'NWMxNzlmNGEtYTFiOS00OTQ1LWEwZmItMmMzZmM5NTM0ZDE3OlN2ZXgwNzcwQGdtYWlsLmNvbTpQQHNzdzByZA==';
+const xapiKey = 'NWMxNzlmNGEtYTFiOS00OTQ1LWEwZmItMmMzZmM5NTM0ZDE3OlN2ZXgwNzcwQGdtYWlsLmNvbTpVbTV5VGsxNFNscEZTbloxZURKaFNHUlFObFV4VkZNME5VVlFVaTR3TUZOMmRsSkxTV2hGV2tGSE9XNVRhWFIyYkVSSVJDUlRKQT09';
 
 async function userRegistration(username, password, country, currency, countryCode, phoneNumber, firstName, lastName, address, city, birthDate, documentType, documentNumber, passportNumber, email) {
   try {
